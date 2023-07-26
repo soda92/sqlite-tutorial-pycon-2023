@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Python: App1",
+            "name": "Python: ControlApp",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/gui_app.py",
