@@ -4,7 +4,7 @@
             "name": "Python: ControlApp",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/gui_app.py",
+            "program": "${workspaceFolder}/gui_app_with_console.py",
             "console": "integratedTerminal",
             "preLaunchTask": "build",
             "justMyCode": true,
