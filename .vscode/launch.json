@@ -1,6 +1,18 @@
 {
     "configurations": [
         {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "preLaunchTask": "build_exe",
+            "program": "${workspaceFolder}/dist/gui_app.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Python: ControlApp",
             "type": "python",
             "request": "launch",
@@ -11,6 +23,6 @@
             "env": {
                 "PYTHONPATH": "${workspaceFolder}"
             }
-        }
+        },
     ]
 }

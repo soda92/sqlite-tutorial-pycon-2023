@@ -5,6 +5,11 @@
             "label": "build",
             "type": "shell",
             "command": "python ${workspaceFolder}/ControlApp/scripts/compile_ui.py"
+        },
+        {
+            "label": "build_exe",
+            "type": "shell",
+            "command": "python ${workspaceFolder}/scripts/build_exe.py"
         }
     ]
 }
