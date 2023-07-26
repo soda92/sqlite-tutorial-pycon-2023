@@ -6,6 +6,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/gui_app.py",
             "console": "integratedTerminal",
+            "preLaunchTask": "build",
             "justMyCode": true,
             "env": {
                 "PYTHONPATH": "${workspaceFolder}"

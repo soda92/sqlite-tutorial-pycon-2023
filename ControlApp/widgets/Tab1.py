@@ -14,4 +14,8 @@ class Tab1(QtWidgets.QWidget):
 
     def showMessage(self):
         text = self.ui.lineEdit.text()
-        QtWidgets.QMessageBox(QtWidgets.QMessageBox.Icon.Information, "message", text)
+        box = QtWidgets.QMessageBox()
+        box.setWindowTitle("messge")
+        box.setText(text)
+        box.exec_()
+
