@@ -5,7 +5,7 @@ from .ui import ui_Tab1
 
 
 class Tab1(QtWidgets.QWidget):
-    def __init__(self, parent: QtWidgets.QWidget) -> None:
+    def __init__(self, parent: QtWidgets.QWidget | None = None) -> None:
         super().__init__(parent)
         self.ui = ui_Tab1.Ui_Form()
         self.ui.setupUi(self)

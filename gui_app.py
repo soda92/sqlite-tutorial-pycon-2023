@@ -1,4 +1,7 @@
 import os
+
 print(os.environ.get("PYTHONPATH"))
 
-import ControlApp
+from ControlApp.app.main import main
+
+main()
